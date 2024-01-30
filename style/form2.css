@@ -1,0 +1,143 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+    width: 100vh;
+    margin: 0px auto;
+    padding: 10vh 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.pages{
+    margin: -9vh 0px;
+    padding: 0;
+    position: absolute;
+    right: -280px;
+    transition: 0.3s;
+
+}
+.pages:hover{
+    right: 0;
+    transition: 0.3s;
+
+}
+.pages li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+
+
+}
+.pages li:hover{
+   
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.3s;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+    }
+    
+.navbar{
+    display: inline-block;
+}
+
+.form-section{
+    width: 100%;
+    background: url(https://cdn.pixabay.com/photo/2024/01/25/12/30/street-8531779_960_720.jpg) center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+
+}
+.form-bg{
+    background-color: white;
+    width: 25%;
+    height: auto;
+    padding: 1%;
+    margin: 0;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.116);
+    position: absolute;
+    top: 20;
+
+
+
+
+    
+}
+
+.logo{
+text-align: center;
+}
+
+
+.logo img{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    
+
+}
+input{
+    padding: 10px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.name{
+    width: 49%;
+}
+
+ .phn{ 
+    width: 49%;
+    
+} 
+ .owner{ 
+    width: 49%;
+} 
+
+.btn{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+.btn button{
+padding: 10px 20px;
+  background-color: rgb(0, 146, 24);
+  font-size: 17px;
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+
+}
+
+.btn button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    transition-duration: 30ms;
+
+
+    }
